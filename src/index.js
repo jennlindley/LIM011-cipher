@@ -5,6 +5,7 @@ let btncodi = document.getElementById('btncodi');
 let btndeco1 = document.getElementById('btndeco1');
 let btnLim = document.getElementById('btnLim')
 
+
 //boton codificar
 btncodi.addEventListener("click", codificar);
   function codificar() {
@@ -12,20 +13,24 @@ btncodi.addEventListener("click", codificar);
    let desplazamientos = parseInt(desplazamiento.value);
    let resultado = window.cipher.encode(desplazamientos,cajatextos);
 
-   document.getElementById('cajaresultado').innerHTML = resultado;
+   document.getElementById('cajaresultado').value = resultado;
   }
 
 //boton decodificar
 btndeco1.addEventListener("click", decodificar);
  function decodificar() {
+   
    let cajadeco = cajatexto.value;
    let movimiento = parseInt(desplazamiento.value);
    let resultado = window.cipher.decode(movimiento,cajadeco);
 
-   document.getElementById('cajaresultado').innerHTML = resultado;
+   document.getElementById('cajaresultado').value = resultado;
  }
 
+ //boton limpiar
  btnLim.addEventListener("click", limpiar);
   function limpiar(){
-    let 
+    document.getElementById("cajatexto").value ="";
+    document.getElementById("desplazamiento").value ="";
+    document.getElementById("cajaresultado").value ="";
   }

@@ -135,17 +135,52 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+ 
+  Titulo: Codifica y Decodifica mensajes
+
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+
+  Resumen: Es una aplicación para que puedas codificar un mensaje y también puedas decoficarlo.
+
 * La imagen final de tu proyecto.
+
+   ![Capturafinal](https://user-images.githubusercontent.com/55991228/66771781-bddb4800-ee80-11e9-88c0-f13d7adc371a.PNG)
+
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
+    Usuarios: Niños y adolescentes de entre 9 y 14 años 
+    Objetivo: Que niños y adolescentes puedan jugar enviandose mensajes en codigo entre ellos.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+
+    Muchos niños y y adolescentes necesitan sentir que forman parte de algo especial y este juego les permite crear espacios entre ellos para comunicarse de una forma divertida y secreta que solo entenderán entre los participantes de la comunicación.
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
+
+     ![IMG_20191011_091954](https://user-images.githubusercontent.com/55991228/66771341-9b94fa80-ee7f-11e9-94f0-ebf0936fec39.jpg)
+     ![IMG_20191011_092008](https://user-images.githubusercontent.com/55991228/66771390-bff0d700-ee7f-11e9-9a39-aeb2a009aa1e.jpg)
+
+
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+  ![Captura 2](https://user-images.githubusercontent.com/55991228/66773061-bcf7e580-ee83-11e9-9b1e-306023be1e44.PNG)
+
+
+   Debería agregarle alguna imagen o gift para que se entienda que es para niños y adolescentes. Y que la vista sea mas sencilla de manejar para ellos.
+
+
   5. Imagen del prototipo final.
 
+
+  ![Captura3](https://user-images.githubusercontent.com/55991228/66773023-a81b5200-ee83-11e9-84b7-527653056651.PNG)
+
+  
+      
 #### Visualmente (HTML5 y CSS3)
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
@@ -284,3 +319,50 @@ Organización del Trabajo:
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
+
+
+
+## Objetivos de aprendizaje Cipher
+​
+A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+​
+### UX
+​
+- [NO ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [NO ] Crear prototipos para obtener feedback e iterar.
+- [NO ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+​
+### HTML y CSS
+​
+- [SI ] Uso correcto de HTML semántico.
+- [SI ] Uso de selectores de CSS.
+- [NO ] Construir tu aplicación respetando el diseño realizado (maquetación).
+​
+### DOM
+​
+- [SI ] Uso de selectores del DOM.
+- [NO ] Manejo de eventos del DOM.
+- [NO ] Manipulación dinámica del DOM.
+​
+### Javascript
+​
+- [NO ] Manipulación de strings.
+- [NO ] Uso de condicionales (if-else | switch).
+- [NO ] Uso de bucles (for | do-while).	
+- [NO ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [SI ] Declaración correcta de variables (const & let).
+​
+### Testing
+- [SI ] Testeo de tus funciones.
+​
+### Git y GitHub
+- [NO ] Comandos de git (add | commit | pull | status | push).
+- [NO ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+​
+### Buenas prácticas de desarrollo
+- [NO ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [SI ] Uso de linter para seguir buenas prácticas (ESLINT).
+Collapse
+
+
+

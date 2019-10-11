@@ -11,55 +11,57 @@
 
   <body>
 
-    <header>
-      <div id="root">
-        <h1>Mensajes Secretos</h1>
-      </div>
-      <p><em>Diviertete descifrando mensajes con tus amigos</em></p>
+    <section class="content">
 
-    </header>
+      <header>
+        <div class="titular">
+          <h1>Mensajes Secretos</h1>
+          <p><em>Diviertete descifrando mensajes con tus amigos</em></p>
+        </div>
 
-    <form class="fondo" action="index.html" method="post">
+      </header>
 
-      <!-- Caja de texto y el desplazamiento -->
-      <div>
-        <textarea id="cajatexto" placeholder="Escribe Aquí" rows="8" cols="80"></textarea>
-      </div>
-        <br>
-      <label class="label"><i>Ingrese N° de desplazamiento</i></label>
-      <input type="number" id="desplazamiento" min="1">
+      <main class="fondo" action="index.html" method="post">
 
-      <!-- Boton para codificar -->
-      <div>
-        <input type="button" id="btncodi" value="Codifica tu Mensaje">
-      </div>
+        <!-- Caja de texto y el desplazamiento -->
+        <div class="cajon">
+          
+            <textarea id="cajatexto" placeholder="Escribe Aquí" class="estilocaja"></textarea>
+         
+       
+          <br>
+             <label class="label"><i>Ingrese N° de desplazamiento</i></label>
+             <input type="number" id="desplazamiento" min="1" class="des">
+        </div>
+        <!-- Boton para codificar -->
+        <div>
+        
+              <input type="button" id="btncodi" value="Codifica tu Mensaje">
+        
+              <input type="button" id="btndeco1" value="Decodifica tu Mensaje">
 
-         <br>
+        </div>
 
-        <!-- Creando el boton: limpiar -->
-       <input type="button" value="Limpiar" id="btnLim" class="limpia">
-       <br>
-       <br>
+         <!-- Caja de resultado y el desplazamiento -->
+         <div class="resul">
+           <textarea id="cajaresultado" placeholder="Escribe Aquí" class="estiloresul"></textarea>
+         </div>
 
-       <!-- Caja de texto y el desplazamiento -->
-       <div>
-         <textarea id="cajaresultado" placeholder="Escribe Aquí" rows="8" cols="80"></textarea>
-       </div>
-         <br>
-         <!--  <label class="label"><i>Ingrese N° de desplazamiento</i></label> -->
-       <!--<input type="number" id="desplazamiento1" class="desplazamiento_style" min="1"> -->
+           <!-- Creando el boton: limpiar -->
+          <input type="button" value="LIMPIAR" id="btnLim" class="limpia">
 
-       <!-- Boton para codificar -->
-       <div>
-         <input type="button" id="btndeco1" value="Decodifica tu Mensaje">
-       </div>
-       <br>
+          
+          
+      </main>
+      <br>
+    
 
-         <!-- Creando el boton: limpiar -->
-      <!--  <input type="button" value="Limpiar" id="botonLimpiar1" class="limpia1"> -->
+      <footer>
+        <label class="disclaimer"><center>Todos los derechos reservados &copy;</center> </label>
+      </footer>
 
+    </section>
 
-    </form>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
